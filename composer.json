@@ -13,20 +13,12 @@
         }
     ],
     "require": {
-        "symfony/symfony": "~2.6|~3.0",
+        "symfony/framework-bundle": "^3.4 || ^4.0",
         "doctrine/doctrine-bundle": "~1.6",
         "doctrine/orm": "~2.5",
         "knplabs/knp-paginator-bundle": "~2.5"
     },
     "require-dev": {
-        "phpspec/phpspec": "~2.0",
-        "behat/behat": "~2.5",
-        "behat/mink-extension": "~1.3",
-        "behat/mink-browserkit-driver": "~1.1",
-        "behat/symfony2-extension": "~1.1",
-        "vipsoft/doctrine-data-fixtures-extension": "~2.5",
-        "fzaninotto/faker": "~1.4",
-        "bravesheep/phpspec-expect": "~0.1"
     },
     "autoload": {
         "psr-4": {
